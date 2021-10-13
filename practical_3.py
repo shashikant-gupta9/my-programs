@@ -2,7 +2,7 @@
 """
 Created on Mon Oct 11 11:51:53 2021
 
-@author: Saksham
+@author: Shashikant
 """
 
 l = eval(input('Length of Multi List: '))
