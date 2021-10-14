@@ -1,0 +1,27 @@
+# my-programs
+# -*- coding: utf-8 -*-
+"""
+Created on Wed Oct 13 21:49:26 2021
+
+@author: shash
+"""
+
+#!/bin/python
+
+import math
+import os
+import random
+import re
+import sys
+
+n = int(input())
+
+i = 0
+if n>0 and n<21:
+    while i<n :
+     print(i*i)
+     i+=1     
+ 
+ 
+
+     
