@@ -1,0 +1,28 @@
+# my-programs
+# -*- coding: utf-8 -*-
+"""
+Created on Wed Oct 13 21:49:26 2021
+
+@author: shash
+"""
+
+#!/bin/python
+
+import math
+import os
+import random
+import re
+import sys
+
+
+def is_leap(year):
+    leap = False
+    
+    # Write your logic here
+    if year % 4==0 and (year % 400==0 or year %100!=0):
+      leap = True  
+    
+    return leap
+
+year = int(input())
+print(is_leap(year))
