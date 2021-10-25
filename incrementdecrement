@@ -1,0 +1,59 @@
+# my-programs
+# -*- coding: utf-8 -*-
+"""
+Created on Mon Oct 25 10:28:54 2021
+
+@author: shash
+"""
+
+# number of elements
+n = 20
+
+# Below line read inputs from user using map() function
+a = list(map(int,input("\nEnter the numbers with space : ").strip().split()))[:n]
+
+#print("\nList is - ", a)
+
+
+
+def increment(b = []) : 
+    x= 0
+    i= 0
+    num = 0
+    count = 0
+    while x< 20 :
+                 while i <20 :
+                  if b[i] >= b[x] :
+                      count = 0
+                  else :
+                      count =1 
+                 num = num + count
+                 i=i+1
+    x= x+1
+    return num 
+                 
+                
+def decrement(b = []) : 
+    x= 0
+    i= 0
+    num = 0
+    count = 0
+    while x< 20 :
+                 while i <20 :
+                  if b[i] <= b[x] :
+                      count = 0
+                  else :
+                      count = 1
+                 num = num + count
+                 i=i+1
+    x= x+1
+    return num                            
+                  
+
+
+print(increment(a))
+print(decrement(a))
+
+
+                    
+                 
