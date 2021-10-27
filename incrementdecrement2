@@ -1,2 +1,87 @@
 # my-programs
-here i will store all of my programs made
+ # -*- coding: utf-8 -*-
+"""
+Created on Wed Oct 13 21:49:26 2021
+
+@author: shash
+"""
+
+#!/bin/python
+
+import math
+import os
+import random
+import re
+import sys
+
+
+
+   
+# my-programs
+# -*- coding: utf-8 -*-
+"""
+Created on Mon Oct 25 10:28:54 2021
+
+@author: shash
+"""
+
+# number of elements
+
+
+# Below line read inputs from user using map() function
+a = list(map(int,input("\nEnter the numbers with space : ").strip().split()))
+
+#print("\nList is - ", a)
+n= len(a)
+
+a.append(0)
+
+def increment(b = []) : 
+     x= 0
+ 
+     num = 0
+     i= 0
+    
+     
+     for x in range (0,n) :
+                while i < n:
+                  
+                   if b[i+1] >= b[i] and  b[i+1] >= b[x]:  
+                      i=i+1
+                      continue
+                   else :
+                      
+                      num = num + 1
+                      break
+                  
+                x= x+1
+                i = x+1
+    
+     return num
+                 
+                
+'''def decrement(b = []) : 
+    x= 0
+    i= 012345
+    num = 0
+    count = 0
+    while x< 20 :
+                 while i <20 :
+                  if b[i+1] <= b[i] :
+                      count = 0
+                  else :
+                      count = 1
+                 num = num + count
+                 i=i+1
+    x= x+1
+    return num    '''              
+                  
+
+
+print(increment(a))
+#print(decrement(a))
+
+
+                    
+                 
+
