@@ -1,0 +1,53 @@
+# my-programs
+#!/bin/python
+
+import math
+import os
+import random
+import re
+import sys
+
+# creating an empty list
+z = []
+
+# number of elements as input
+n = int(input("Enter number of elements : "))
+
+# iterating till the range
+for i in range(0, n):
+	ele = int(input())
+
+	z.append(ele) # adding the element
+i = i+1
+print(z)
+
+z.sort()
+
+
+a = len(z)
+
+f = round((3/10)*a )
+for i in range (0,f-1):
+   z.remove(i)
+             
+z.reverse()            
+
+for i in range (0,f-1):
+   z.remove(i)
+             
+
+c = len(z)
+
+           
+sum = 0             
+for b in range (0,c-1):
+             sum = sum + z[b]
+             
+
+average = sum / c
+
+print(average)
+
+
+
+
