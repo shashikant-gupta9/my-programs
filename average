@@ -1,0 +1,49 @@
+# my-programs
+
+
+
+
+
+#!/bin/python
+
+'''import math
+import os
+import random
+import re
+import sys'''
+
+
+
+   
+# my-programs
+# -*- coding: utf-8 -*-
+"""
+Created on Mon Oct 25 10:28:54 2021
+
+@author: shash
+"""
+
+# number of elements
+
+
+# Below line read inputs from user using map() function
+a = list(map(int,input("\nEnter the numbers with space : ").strip().split()))
+
+#print("\nList is - ", a)
+n= len(a)
+
+sum = 0
+
+for i in range(0,n):
+    sum = sum + a[i]
+    
+average = sum/n
+print( average)
+
+
+
+
+
+
+                    
+                 
