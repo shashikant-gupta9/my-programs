@@ -1,0 +1,24 @@
+# my-programs
+
+
+import math
+import os
+import random
+import re
+import sys
+
+
+if __name__ == '__main__':
+    n = int(raw_input())
+    arr = map(int, raw_input().split())
+    
+if n>=2 and n <=10:    
+    arr.sort()
+    arr.reverse()
+    z = len(arr)
+    for i in range (0,z-1):
+     if arr[i+1] < arr[i]:
+         break
+    print(arr[i+1])
+else : print("please input valid number")
+    
