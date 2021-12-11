@@ -1,0 +1,19 @@
+# my-programs
+def swap_case(s):
+    # Python program to demonstrate the use of
+# swapcase() method
+
+
+
+    a = s.swapcase()
+
+# prints after swappong all cases
+ 
+
+
+    return a
+
+if __name__ == '__main__':
+    s = raw_input()
+    result = swap_case(s)
+    print result
