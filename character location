@@ -1,0 +1,9 @@
+# my-programs
+#include <iostream>
+using namespace std;
+
+int main() {
+  string x = "shashikant gupta"
+  cout << x[4];
+  return 0;
+}
