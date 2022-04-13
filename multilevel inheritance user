@@ -1,0 +1,41 @@
+# my-programs
+ #include <iostream>
+using namespace std;
+
+class MyClass {         // The class
+  public:   // Access specifier
+  string name;
+  string add;
+  string city;
+  int pincode;
+  int number;
+  void get() {  // Method/functio
+      cout<<"enter name";
+      cin>>name;
+      cout<<"enter address";
+      cin>>add;
+      cout<<"enter city";
+      cin>>city;
+      cout<<"enter pincode";
+      cin>>pincode;
+      cout<<"enter name";
+      cin>>number;
+      
+      
+      
+    }
+    void display(){
+        cout<<"name:"<<name<<endl;
+        cout<<"address:"<<add<<endl;
+        cout<<"city:"<<city<<endl;
+        cout<<"pincode:"<<pincode<<endl;
+        cout<<"number:"<<number<<endl; }
+    
+};
+
+int main() {
+  MyClass myObj;     // Create an object of MyClass
+  myObj.get(); // Call the method
+  myObj.display();
+  return 0;
+}
