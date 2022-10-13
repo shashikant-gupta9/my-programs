@@ -1,0 +1,28 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be n  amed Solution. */
+     Scanner sc = new Scanner(System.in);
+     String x= sc.next();
+     String y= sc.next();
+     
+     try{
+        int a = Integer.parseInt(x);
+        int b = Integer.parseInt(y);
+        int div = a/b;
+         System.out.println(div) ;
+     }
+      catch(ArithmeticException e){
+         System.out.println(e) ;
+     }
+     catch(IllegalArgumentException e){
+         System.out.println("java.util.InputMismatchException ") ;
+     }
+}
+}
