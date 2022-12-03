@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <title>Document</title>
+     <style>
+       
+        .wrapper {
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+
+        h1,h2,h3,h4,h5,h6,p {
+            margin: 0;
+            padding: 0;
+            padding-bottom: 20px;
+            line-height: 1.6;
+            font-family: 'Helvetica', 'Arial', sans-serif;
+        }
+
+        p,a,li {
+            font-family: 'Helvetica', 'Arial', sans-serif;
+        }
+
+        img {
+            
+            display: block;
+        }
+
+        @media only screen and (max-width: 620px) {
+
+            .wrapper .section {
+                width: 100%;
+            }
+
+            .wrapper .column {
+                width: 100%;
+                display: block;
+            }
+        }
+    </style>
+</head>
+</head>
+<body class="wrapper">
+    <table class="section header" cellpadding="0" cellspacing="0" bgcolor="floralwhite" border="0" width="700" align="center" style="font-family: arial; font-size:14px; border: 1px solid rgb(241, 229, 215);">
+     <tr>
+        <td class="column" style="padding: 1px 1px ;"  ><img src="https://vit.ac.in/sites/all/themes/vittheme/images/vitlogo.png" alt=""></td>
+        <td class="column"   style="padding: 36px;">
+            <h2> VIT Engineering Entrance Examination 2023 </h2>
+        </td>
+        
+     </tr>
+     <tr>
+        <td colspan="2" align="right">
+            <button style =" background-color: #4CAF50; /* Green */
+             border: none;
+             color: white;
+             padding: 10px 10px;
+             text-align: right;
+             text-decoration: none;
+             display: inline-block;
+             font-size: 18px;" onclick="window.print()"> Print this page</button>
+         </td>
+     </tr>
+     <tr>
+        <td class="column" colspan="2" style="text-align: center ;background-image: url('https://vit.ac.in/vit-rank/assets/img/VIT-Rank.jpg'); color: white; padding-bottom: 40px;">
+            <h1 style="font-size: 104px; margin:50px 0 0 0;">VITEEE 2023</h1>
+            <h2 style="font-size:27px ; text-transform:uppercase; margin-top: 0; font-weight: normal;">VIT Engineering Entrance Exam 
+               </h2>
+            <h3 style="font-size: 24px; font-weight:normal; font-style:italic">Application For B.Tech. Programmes</h3>
+            <a target="_blank" style="color:#3997e1; padding: 10px 20px; background: floralwhite; font-size: 18px; font-weight: bold; text-decoration:none" href="https://viteee.vit.ac.in/?utm_source=V71TI1557&utm_campaign=viteee2023">VITEEE 2023 - Apply Now</a> 
+        </td>
+     </tr>
+     <tr>
+        <td colspan="2" bgcolor="floralwhite" style="padding:50px; text-align: center;">
+            <h2>VIT Engineering Entrance Examination 2023
+                (B.Tech. Admission)</h2>
+                <p style="font-size: 14px; color: #4e4c4c; line-height:22px">Vellore Institute of Technology Engineering Entrance Examination (VITEEE) is conducted for admission to undergraduate engineering programmes in VIT group of Institutions. VITEEE will be conducted between 15 and 21 April 2023 (Tentative) at designated centres across India and abroad. The duration of the examination will be 2 hours and 30 minutes. Candidates can appear only once for VITEEE. All questions will be Multiple Choice Questions and one mark for right and 0 for the wrong answer. There will be a total of 125 questions divided into the section Maths/Biology (40 questions), Physics (35 questions), Chemistry (35 questions), Aptitude (10 questions), and English (5 questions). The question paper will be in English only. The complete syllabus is available here: Click for Syllabus . The list of test cities is available in the Information Brochure/ direct selection in application form.</p>
+       </td>
+     </tr>
+     <tr bgcolor="#3f4464">
+        <td  class="column" style="padding: 15px;"><img src="https://viteee.vit.ac.in/assets/img/steps.jpg" alt=""  width="100%"></td>
+        <td  class="column" align="center" style="padding-left: 215px;">
+            <h2 style=" font-size: 25px; color: white;">Application Stages</h2>
+            <table>
+                <td>
+                     <button style="padding: 6px; width: 330px;  text-align: center;">Step 1 - New user Registration </button><br><br> 
+                     <button style="padding: 6px; width: 330px;  text-align: center;">Step 2 - Sign in for Registered users</button><br><br>
+                     <button style="padding: 6px; width: 330px;  text-align: center;">Step 3 - Filling Online application form</button><br><br>
+                     <button style="padding: 6px;width: 330px;  text-align: center;">Step 4 - Payment</button><br><br>
+                     <button style="padding: 6px; width: 330px;  text-align: center;">Step 5 - Photo & Signature Upload</button><br><br>
+                     <button style="padding: 6px;width: 330px;  text-align: center;"> Step 6 - Download filled-in application form</button><br><br>
+                </td>
+            </table>
+        </td>
+     </tr>
+     <tr>
+           <td class="column" align="center" colspan="2" style="padding: 10px;font-size: 14px; ">Copyright-2023 © Vellore Institute of Technology</td>
+     </tr>
+    </table>
+</body>
+</html>
